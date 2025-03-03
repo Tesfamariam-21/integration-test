@@ -13,8 +13,8 @@ const paymentSchema = new mongoose.Schema(
     },
     status: {
       type: String,
-      enum: ["Success", "failed"],
-      default: "Success",
+      enum: ["Success", "Pending"],
+      default: "Pending",
     },
     reference: {
       type: String,
